@@ -1,0 +1,58 @@
+@font-face {
+    font-family: fontyy;
+    src: url(./fontyy.ttf);
+}
+
+h1{
+    width: 100%;
+    background-color: orange;
+    border: 1px solid black;
+    font-family:fontyy;
+    text-align: center;
+    color: black;
+    height: 60px;
+    border-radius: 10px;
+    padding: 10px;
+    opacity: 0.5;
+}
+
+   
+
+.circle{
+    box-shadow: 2px -5px 63px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px -5px 63px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px -5px 63px 0px rgba(0,0,0,0.75);
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border-radius: 50%;
+    opacity: 0.5;
+    transition: 0.5s;
+  
+}
+
+#red{
+    background-color: red;
+}
+
+#yellow{
+    background-color: yellow;
+}
+
+#green{
+    background-color: green;
+}
+
+
+#red:hover{
+opacity: 1;
+}
+
+#yellow:hover{
+    opacity: 1;
+}
+
+#green:hover{
+    opacity: 1;
+}
+    
